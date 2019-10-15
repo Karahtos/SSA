@@ -6,6 +6,8 @@ http://www.carobot.cc/how-to/lcd-16x2-or-20x4-usage-guide/
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
+//Tutorial for teensy 3.2 und LCD
+
 LiquidCrystal_I2C lcd(0x27,20,4);
 //Counter to change positions of pages
 
