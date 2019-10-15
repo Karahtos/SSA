@@ -9,6 +9,7 @@
 //Spannung könnte nicht hoch genug sein, durch den Spannungsteiler. Nachschauen in Datenblatt und dann mit richtiger Spannung testen.
 //HC 05 app für kommunikation
 
+https://forum.pjrc.com/threads/36986-Connect-teensy-3-2-to-HC-05-bluetooth-module
 
 #include <SoftwareSerial.h>
 SoftwareSerial BTserial(2, 3); // RX | TX
